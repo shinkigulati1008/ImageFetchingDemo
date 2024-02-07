@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="0" errors="0" time="5.115">
+  <testsuite name="ImageGrid" errors="0" failures="0" skipped="0" timestamp="2023-03-03T18:24:40" time="1.918" tests="4">
+    <testcase classname="ImageGrid renders an image grid with the images provided" name="ImageGrid renders an image grid with the images provided" time="0.09">
+    </testcase>
+    <testcase classname="ImageGrid clicking on an image shows a modal with the full-sized image" name="ImageGrid clicking on an image shows a modal with the full-sized image" time="0.036">
+    </testcase>
+    <testcase classname="ImageGrid displays the selected image in the modal" name="ImageGrid displays the selected image in the modal" time="0.022">
+    </testcase>
+    <testcase classname="ImageGrid closes the modal when the close button is clicked" name="ImageGrid closes the modal when the close button is clicked" time="0.035">
+    </testcase>
+  </testsuite>
+  <testsuite name="App" errors="0" failures="0" skipped="0" timestamp="2023-03-03T18:24:40" time="2.522" tests="2">
+    <testcase classname="App should fetch and display images on mount" name="App should fetch and display images on mount" time="0.102">
+    </testcase>
+    <testcase classname="App should fetch more images when scrolling to bottom of page" name="App should fetch more images when scrolling to bottom of page" time="0.558">
+    </testcase>
+  </testsuite>
+</testsuites>
